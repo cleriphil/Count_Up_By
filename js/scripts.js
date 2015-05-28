@@ -1,13 +1,13 @@
 var countUpBy = function(start, end, interval) {
   var array = [];
 
-  if (interval < end) {
+  if ((interval < end) && (start < end)) {
     for (var i = start; i <= end; i += interval) {
       array.push(i);
     }
     return array;
   } else {
-    alert("Interval must be less than the end number.")
+    alert("Interval and start numbers must be less than the end number.")
   };
 };
 
