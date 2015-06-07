@@ -7,6 +7,6 @@ With the inputted info, the app displays the numerical results.
 ###Setup Instructions:
 
 - Clone project in desktop
-- Open html file to launch browser
+- Open HTML file to launch browser
 
 MIT License
